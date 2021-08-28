@@ -27,7 +27,6 @@ Parameters = {'AccountKey': AccountKey, 'ClientKey': ClientKey}
 GetAccountPath = "/port/v1/balances"
 
 #AccountInfo = getAPI(BaseUrl+GetAccountPath,Parameters,Headers)
-
 #print(AccountInfo.get("TotalValue"))
 
 GetAccountHistoryPath = "/hist/v3/accountvalues/"+ClientKey
